@@ -1,18 +1,20 @@
+---
+---
 # Repository Draft Summary
 
-Bu klasör, GitHub’a yüklenmeye hazır **Technology Leadership Council** depo taslağıdır.
+This folder contains the **Technology Leadership Council** repository draft, prepared for GitHub upload.
 
-| Bölüm | Açıklama |
-|---|---|
-| `README.md` | Depoyu anlatan ana doküman |
-| `personas/` | 7 çekirdek liderlik personası |
-| `prompts/` | Master prompt ve kullanım modları |
-| `examples/` | CEO, CMO ve CIO örnek senaryoları |
-| `templates/` | Karar brief’i ve çıktı şablonu |
-| `docs/` | Kapsam, sınırlar ve yol haritası |
-| `LICENSE` | MIT lisans önerisi |
-| `CONTRIBUTING.md` | Katkı kuralları |
+| Section           | Description                                         |
+|-------------------|-----------------------------------------------------|
+| `README.md`       | Primary document outlining the repository           |
+| `personas/`       | Seven core leadership personas                        |
+| `prompts/`        | Master prompt and usage modes                         |
+| `examples/`       | Sample scenarios for CEO, CMO, and CIO               |
+| `templates/`      | Decision brief and output templates                   |
+| `docs/`           | Scope, boundaries, and roadmap                        |
+| `LICENSE`         | Proposed MIT license                                  |
+| `CONTRIBUTING.md` | Contribution guidelines                               |
 
-Önerilen repo adı: `technology-leadership-council`
+Recommended repository name: `technology-leadership-council`
 
-Önerilen kısa açıklama: `An open prompt architecture for C-level technology and AI decision-making.`
+Recommended short description: `An open prompt architecture for C-level technology and AI decision-making.`

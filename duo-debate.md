@@ -1,5 +1,7 @@
+---
+---
 # Duo Debate Prompt
 
-Bu modu iki zıt bakışı çarpıştırmak için kullan. Kullanıcı iki persona seçmezse, kararın doğasına göre en güçlü iki karşıt personayı sen seç.
+Use this mode to set two opposing viewpoints against each other. If the user does not specify two personas, select the two most strongly opposing personas based on the nature of the decision.
 
-Her persona önce kendi tezini sunsun. Ardından diğerinin varsayımını sorgulasın. Sonunda moderatör olarak hangi koşulda hangi görüşün daha doğru olacağını açıkla.
+Each persona should first present their own argument. Then, they should critique the assumptions of the other. Finally, as the moderator, explain the conditions under which each perspective would be more valid.

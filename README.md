@@ -1,65 +1,66 @@
+---
 # Technology Leadership Council
 
-**Technology Leadership Council**, C-level yöneticilerin teknoloji, yapay zekâ, müşteri deneyimi, tedarikçi seçimi ve organizasyonel dönüşüm kararlarını yedi farklı liderlik perspektifinden tartıştırmak için tasarlanmış açık kaynaklı bir prompt setidir.
+**Technology Leadership Council** is an open-source prompt set designed to facilitate C-level executives in discussing technology, artificial intelligence, customer experience, vendor selection, and organizational transformation decisions from seven distinct leadership perspectives.
 
-Bu depo bir yapay zekâ modeli eğitmez. Bunun yerine, mevcut büyük dil modelleriyle kullanılabilecek **kurul tabanlı düşünme mimarisi** sunar. Amaç, yöneticinin yerine karar vermek değil; kararın müşteri, teknoloji, kültür, risk ve iş modeli etkilerini görünür kılmaktır.
+This repository does not train an AI model. Instead, it provides a **council-based thinking architecture** that can be used with existing large language models. The goal is not to make decisions on behalf of the executive but to illuminate the customer, technology, culture, risk, and business model implications of a decision.
 
-> **Bu kurul karar vermez; liderin daha iyi karar vermesini sağlar.**
+> **This council does not decide; it enables leaders to make better decisions.**
 
-## Neden Var?
+## Purpose
 
-AI çağında liderlerin daha fazla cevaba değil, daha iyi sorulara ihtiyacı var. Teknoloji kararları artık sadece CIO veya CTO masasında alınan teknik kararlar değildir. Her AI, platform, otomasyon, CRM, veri veya tedarikçi kararı; müşteri deneyimini, marka güvenini, organizasyon kültürünü ve rekabet avantajını aynı anda etkiler.
+In the AI era, leaders need better questions, not just more answers. Technology decisions are no longer purely technical choices made at the CIO or CTO level. Every AI, platform, automation, CRM, data, or vendor decision simultaneously impacts customer experience, brand trust, organizational culture, and competitive advantage.
 
-Bu kurul, bir kararı tek bir akla teslim etmek yerine yedi farklı stratejik mercekten geçirir. Böylece lider, kararın sadece cazip tarafını değil; kör noktalarını, insan etkisini, uygulanabilirliğini ve uzun vadeli bağımlılıklarını da görebilir.
+This council subjects a decision to seven strategic lenses rather than entrusting it to a single mind. This allows leaders to see not only the attractive aspects but also blind spots, human impact, feasibility, and long-term dependencies.
 
-## Kurulun 7 Personası
+## The Council’s 7 Personas
 
-| Persona | Temsil Ettiği Bakış | Ana Sorusu |
-|---|---|---|
-| **The Platform Architect** | Altyapı, ölçek, entegrasyon, veri ve uzun vadeli teknoloji mimarisi | Bu karar bizi üç yıl sonra özgürleştirir mi, kilitler mi? |
-| **The Experience Visionary** | Ürün, sadelik, kullanıcı deneyimi ve marka algısı | Kullanıcı bunu gerçekten isteyecek mi? |
-| **The Customer-Backwards Operator** | Müşteri ihtiyacı, iş modeli, operasyon ve sadakat | Bu karar müşterinin hangi gerçek problemini çözüyor? |
-| **The Applied AI Strategist** | AI kullanım senaryosu, veri hazırlığı, otomasyon ve ölçülebilir değer | Burada AI gerçekten değer üretiyor mu, yoksa sadece vitrin mi? |
-| **The Risk & Security Sentinel** | Siber güvenlik, mahremiyet, regülasyon, tedarikçi ve itibar riski | Bu sistem nasıl kötüye kullanılabilir? |
-| **The Culture Transformer** | Değişim yönetimi, liderlik, yetkinlik, adaptasyon ve iç iletişim | Bu teknolojiye organizasyon gerçekten hazır mı? |
-| **The First-Principles Challenger** | Varsayım kırma, radikal alternatifler, maliyet kırılımı ve yeni iş modeli | Bu problemi gerçekten böyle çözmek zorunda mıyız? |
+| Persona                      | Perspective Represented                                    | Key Question                                         |
+|------------------------------|-----------------------------------------------------------|-----------------------------------------------------|
+| **The Platform Architect**    | Infrastructure, scalability, integration, data, long-term technology architecture | Will this decision free us or lock us in three years from now? |
+| **The Experience Visionary**  | Product, simplicity, user experience, brand perception    | Will users truly want this?                          |
+| **The Customer-Backwards Operator** | Customer needs, business model, operations, loyalty         | Which real customer problem does this decision solve? |
+| **The Applied AI Strategist** | AI use cases, data preparation, automation, measurable value | Is AI genuinely creating value here, or is it just for show? |
+| **The Risk & Security Sentinel** | Cybersecurity, privacy, regulation, vendor and reputation risk | How could this system be misused?                    |
+| **The Culture Transformer**   | Change management, leadership, competencies, adaptation, internal communication | Is the organization truly ready for this technology? |
+| **The First-Principles Challenger** | Assumption breaking, radical alternatives, cost breakdown, new business models | Do we really have to solve this problem this way?  |
 
-## Kurula Ne Sorulabilir?
+## What Can You Ask the Council?
 
-Kurul özellikle CEO, CMO, CIO, CTO, CHRO, CFO ve COO seviyesindeki liderlerin belirsiz, çok boyutlu ve stratejik kararları için tasarlanmıştır. Kuruldan hukuki, finansal veya teknik nihai onay beklenmemelidir. Bunun yerine kurul; **fırsatları, riskleri, karşı görüşleri, uygulanabilir ilk adımları ve kör noktaları** görünür kılar.
+The council is designed for ambiguous, multidimensional, and strategic decisions by leaders at CEO, CMO, CIO, CTO, CHRO, CFO, and COO levels. It should not be expected to provide legal, financial, or technical final approvals. Instead, the council makes **opportunities, risks, counterarguments, actionable first steps, and blind spots** visible.
 
-| Danışma Alanı | Örnek Karar |
-|---|---|
-| **Yapay Zekâ Stratejisi** | Şirket AI’a nereden başlamalı? Hangi süreçler pilot için uygundur? |
-| **Teknoloji Yatırımı** | Yeni CRM, ERP, CDP, chatbot, agent veya veri platformu alınmalı mı? |
-| **Tedarikçi Seçimi** | Hangi teknoloji tedarikçisiyle çalışılmalı? Hangi teklif uzun vadede daha güvenlidir? |
-| **Müşteri Deneyimi** | Dijital kanal, sadakat programı, mobil uygulama veya servis deneyimi nasıl iyileştirilmeli? |
-| **Marka ve Pazarlama** | AI destekli kişiselleştirme, içerik üretimi ve müşteri verisi nasıl kullanılmalı? |
-| **Organizasyonel Dönüşüm** | Ekipler AI’a nasıl hazırlanmalı? Liderlik ve yetkinlik modeli nasıl değişmeli? |
-| **Risk ve Güvenlik** | Veri, AI, tedarikçi, regülasyon ve itibar riskleri nasıl yönetilmeli? |
+| Advisory Area           | Example Decision                                           |
+|------------------------|------------------------------------------------------------|
+| **AI Strategy**         | Where should the company start with AI? Which processes are suitable for pilots? |
+| **Technology Investment** | Should we acquire a new CRM, ERP, CDP, chatbot, agent, or data platform? |
+| **Vendor Selection**    | Which technology vendor should we partner with? Which offer is more secure long-term? |
+| **Customer Experience** | How should digital channels, loyalty programs, mobile apps, or service experiences be improved? |
+| **Brand and Marketing** | How should AI-powered personalization, content creation, and customer data be utilized? |
+| **Organizational Transformation** | How should teams prepare for AI? How should leadership and competency models evolve? |
+| **Risk and Security**   | How should data, AI, vendor, regulatory, and reputation risks be managed? |
 
-## Hızlı Kullanım
+## Quick Start
 
-Bir LLM aracına `prompts/master-council-prompt.md` içeriğini yapıştırın. Ardından kararınızı aşağıdaki formatta girin.
+Paste the contents of `prompts/master-council-prompt.md` into your LLM interface. Then enter your decision in the following format:
 
 ```text
-Karar: Yeni bir AI müşteri hizmetleri asistanı kurmayı değerlendiriyoruz.
-Hedef: Çağrı merkezi maliyetini azaltmak ve müşteri memnuniyetini artırmak.
-Kısıtlar: 6 ay içinde canlıya almak istiyoruz; veri güvenliği kritik.
-Endişe: Müşteriler bunu soğuk ve mekanik bulur mu?
-Beklenen çıktı: Her persona fırsat, risk, karşı görüş ve 90 günlük pilot önerisi sunsun.
+Decision: We are considering implementing a new AI customer service assistant.
+Goal: Reduce call center costs and increase customer satisfaction.
+Constraints: We want to go live within 6 months; data security is critical.
+Concern: Will customers find this cold and mechanical?
+Expected output: Each persona should provide opportunities, risks, counterarguments, and a 90-day pilot proposal.
 ```
 
-## Çıktı Modları
+## Output Modes
 
-| Mod | Ne Zaman Kullanılır? | Önerilen Çıktı |
-|---|---|---|
-| **Quick Council** | Toplantı öncesi hızlı düşünme | 3 persona, kısa görüş, en büyük risk, ilk öneri |
-| **Executive Council** | C-level stratejik karar | 7 persona, karşıt görüşler, sentez, 30/60/90 gün planı |
-| **Duo Debate** | İki zıt bakışı çarpıştırmak | 2 persona arasında kısa tartışma ve hakem sentezi |
-| **Vendor Review** | Tedarikçi veya platform seçimi | Mimari, risk, müşteri etkisi ve bağımlılık analizi |
+| Mode               | When to Use                         | Recommended Output                                  |
+|--------------------|-----------------------------------|---------------------------------------------------|
+| **Quick Council**   | Rapid pre-meeting thinking         | 3 personas, brief insights, biggest risk, initial recommendation |
+| **Executive Council** | C-level strategic decision         | 7 personas, opposing views, synthesis, 30/60/90 day plan |
+| **Duo Debate**      | Clash between two opposing views   | Short debate between 2 personas and referee synthesis |
+| **Vendor Review**   | Vendor or platform selection       | Architecture, risk, customer impact, and dependency analysis |
 
-## Dosya Yapısı
+## Repository Structure
 
 ```text
 technology-leadership-council/
@@ -92,14 +93,14 @@ technology-leadership-council/
     └── roadmap.md
 ```
 
-## Kullanım İlkeleri
+## Usage Principles
 
-Bu kurul, liderin zekâsını devretmesi için değil, daha iyi düşünmesi için tasarlanmıştır. Kurulun çıktıları karar desteği niteliğindedir. Nihai karar, bağlamı, sorumluluğu ve insan etkisini taşıyan liderde kalmalıdır.
+This council is designed not to delegate the leader’s intelligence but to enhance it. The council’s outputs serve as decision support. The final decision, along with its context, accountability, and human impact, remains with the leader.
 
 ## Attribution
 
-Designed by **future experience studio** as an open prompt architecture for C-level decision-making in the age of AI.
+Designed by **future experience studio** as an open prompt architecture for C-level decision-making in the AI era.
 
-## Lisans
+## License
 
-Bu depo için varsayılan öneri **MIT License** kullanmaktır. Ancak müşteri teklifleri, eğitim metodolojisi ve ticari paketler için ayrı bir ticari lisans veya kullanım notu eklenebilir.
+The default recommended license for this repository is the **MIT License**. However, separate commercial licenses or usage notes may apply for client proposals, training methodologies, and commercial packages.

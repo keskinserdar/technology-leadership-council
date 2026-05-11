@@ -1,13 +1,15 @@
+---
+---
 # Example: CMO Personalization
 
-## Kullanıcı Sorusu
+## User Question
 
-Markamız AI destekli kişiselleştirmeye geçmek istiyor. Bu karar müşteri deneyimini gerçekten iyileştirir mi, yoksa müşteride takip edilme hissi mi yaratır? Kurul fırsatları, etik riskleri ve marka dili önerilerini değerlendirsin.
+Our brand aims to transition to AI-driven personalization. Will this decision truly enhance the customer experience, or could it generate feelings of surveillance among customers? The council should assess the opportunities, ethical risks, and provide recommendations on brand messaging.
 
-## Önerilen Mod
+## Suggested Mode
 
-**Executive Council** veya **Duo Debate**
+**Executive Council** or **Duo Debate**
 
-## Beklenen Çıktı
+## Expected Output
 
-Kurul, kişiselleştirmenin müşteri değeri, veri mahremiyeti, marka güveni, deneyim sadeliği ve operasyonel uygulanabilirlik üzerindeki etkisini tartışmalıdır.
+The council should evaluate the impact of personalization on customer value, data privacy, brand trust, experience simplicity, and operational feasibility.

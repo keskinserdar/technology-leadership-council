@@ -1,23 +1,24 @@
+---
 # Contributing
 
-Technology Leadership Council açık ve genişletilebilir bir prompt mimarisi olarak tasarlanmıştır. Katkılar; yeni persona önerileri, yeni kullanım modları, örnek karar senaryoları ve daha iyi çıktı şablonları üzerinden yapılabilir.
+Technology Leadership Council is designed as an open and extensible prompt architecture. Contributions can include new persona proposals, novel usage modes, example decision scenarios, and improved output templates.
 
-Katkı yaparken kişileri birebir taklit eden, yaşayan kişilerin özel üslubunu kopyalayan veya gerçek kişi adına konuşuyormuş izlenimi veren promptlar önermeyin. Bu depoda personalar gerçek kişilerin kopyası değil, **liderlik arketipleri** olarak ele alınır.
+When contributing, please avoid prompts that imitate real individuals exactly, replicate the unique style of living persons, or give the impression of speaking on behalf of actual people. In this repository, personas are not copies of real individuals but are treated as **leadership archetypes**.
 
-## Katkı Formatı
+## Contribution Format
 
-Yeni bir persona önerirken aşağıdaki başlıkları kullanın:
+When proposing a new persona, please use the following sections:
 
-| Bölüm | Açıklama |
-|---|---|
-| **Identity** | Personanın temsil ettiği liderlik arketipi |
-| **Primary Lens** | Hangi karar merceğini kullandığı |
-| **Questions You Always Ask** | Her durumda sorduğu temel sorular |
-| **What You See That Others Miss** | Diğer personaların kaçırdığı alan |
-| **What You Tend To Miss** | Kendi kör noktası |
-| **Red Flags** | Kararı tehlikeli gördüğü sinyaller |
-| **Output Format** | C-level’e uygun kısa çıktı formatı |
+| Section                  | Description                                         |
+|--------------------------|-----------------------------------------------------|
+| **Identity**             | The leadership archetype the persona represents     |
+| **Primary Lens**         | The decision-making perspective the persona uses   |
+| **Questions You Always Ask** | Core questions the persona consistently poses        |
+| **What You See That Others Miss** | Areas this persona identifies that others overlook      |
+| **What You Tend To Miss** | The persona’s own blind spots                        |
+| **Red Flags**            | Signals indicating the persona views a decision as risky |
+| **Output Format**        | Concise output format suitable for C-level executives |
 
 ## Attribution
 
-Bu metodoloji **future experience studio** tarafından tasarlanmıştır. Katkılarınızda bu atfı koruyun.
+This methodology was designed by **future experience studio**. Please retain this attribution in your contributions.

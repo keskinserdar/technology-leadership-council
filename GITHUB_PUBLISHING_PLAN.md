@@ -1,46 +1,47 @@
-# Technology Leadership Council — GitHub Yayın Planı
+---
+# Technology Leadership Council — GitHub Publishing Plan
 
-Bu doküman, **Technology Leadership Council** deposunun GitHub’a yayınlanması için önerilen ayarları, yükleme adımlarını ve kullanıcı onayı gerektiren kararları içerir.
+This document outlines the recommended settings, upload steps, and user approval decisions for publishing the **Technology Leadership Council** repository on GitHub.
 
-## 1. Önerilen Depo Kimliği
+## 1. Recommended Repository Identity
 
-| Alan | Öneri |
+| Field | Recommendation |
 |---|---|
 | **Repository name** | `technology-leadership-council` |
 | **Description** | `An open prompt architecture for C-level technology and AI decision-making.` |
-| **Visibility** | İlk yayın için **public** önerilir; son kontrol öncesi **private** yayın da mümkündür. |
+| **Visibility** | **Public** is recommended for initial release; **Private** is also possible for pre-release review. |
 | **License** | MIT License |
 | **Default branch** | `main` |
 | **Topics** | `ai`, `leadership`, `prompt-engineering`, `digital-transformation`, `c-level`, `decision-making`, `customer-experience`, `ai-strategy` |
 
-Bu çalışmanın amacı açık kaynak görünürlük, eğitimlerde kullanılabilirlik ve müşterilere/tederikçilere düşünce liderliği göstergesi sunmak olduğu için nihai yayın görünürlüğü olarak **public** daha doğru görünmektedir. Ancak ilk kontrol için depo önce private açılıp, içerik incelendikten sonra public yapılabilir.
+Since the goal is open-source visibility, usability in training, and demonstrating thought leadership to customers and suppliers, **public** visibility is most appropriate for the final release. However, the repository can initially be private for review before switching to public.
 
-## 2. Yayın Öncesi Kontrol Listesi
+## 2. Pre-Release Checklist
 
-| Kontrol | Durum | Not |
+| Checkpoint | Status | Notes |
 |---|---:|---|
-| README hazır | Tamam | Depo amacını, kurul mantığını ve kullanım örneklerini anlatıyor. |
-| 7 persona dosyası hazır | Tamam | Arketip bazlıdır; gerçek kişi adı kullanılmaz. |
-| Prompt modları hazır | Tamam | Quick Council, Executive Council, Duo Debate ve Vendor Review mevcut. |
-| Örnek senaryolar hazır | Tamam | CEO, CMO ve CIO örnekleri eklendi. |
-| Kapsam ve sınırlar hazır | Tamam | Danışmanlık/karar destek sınırları netleştirildi. |
-| Lisans hazır | Tamam | MIT License önerildi. |
-| Katkı rehberi hazır | Tamam | Topluluk katkıları için temel çerçeve var. |
-| Lansman iletişimi hazır | Tamam | LinkedIn, müşteri ve tedarikçi metinleri eklendi. |
+| README ready | Complete | Describes repository purpose, setup logic, and usage examples. |
+| 7 persona files ready | Complete | Archetype-based; no real names used. |
+| Prompt modes ready | Complete | Includes Quick Council, Executive Council, Duo Debate, and Vendor Review. |
+| Sample scenarios ready | Complete | Examples for CEO, CMO, and CIO included. |
+| Scope and boundaries defined | Complete | Consulting and decision support boundaries clarified. |
+| License ready | Complete | MIT License recommended. |
+| Contribution guide ready | Complete | Basic framework for community contributions provided. |
+| Launch communications ready | Complete | LinkedIn, customer, and supplier messaging prepared. |
 
-## 3. Güvenli Yayın Seçenekleri
+## 3. Secure Publishing Options
 
-| Seçenek | Ne Zaman Uygun? | Öneri |
+| Option | When Appropriate? | Recommendation |
 |---|---|---|
-| **Private repo olarak açmak** | Son içerik kontrolü yapılmadan önce | İlk yükleme için güvenli seçenek. |
-| **Public repo olarak açmak** | LinkedIn paylaşımıyla aynı anda duyurulacaksa | Düşünce liderliği ve erişim için en iyi seçenek. |
-| **Private açıp sonra public yapmak** | İçerik önce kullanıcı tarafından kontrol edilecekse | En dengeli seçenek. |
+| **Create as private repo** | Before final content review | Safe option for initial upload. |
+| **Create as public repo** | If announced simultaneously with LinkedIn post | Best for thought leadership and accessibility. |
+| **Create private then switch to public** | If user wants to review content first | Most balanced approach. |
 
-Benim önerim: Depoyu önce **private** açmak, kullanıcı son kez inceledikten sonra **public** yapmak. Bu yöntem hem hata riskini azaltır hem de LinkedIn duyurusuna kadar kontrol sağlar.
+Recommended approach: create the repository **private** initially, then switch to **public** after final user review. This reduces error risk and allows control until the LinkedIn announcement.
 
-## 4. GitHub CLI ile Yükleme Komutları
+## 4. GitHub CLI Upload Commands
 
-Aşağıdaki komutlar repo klasörü içinde çalıştırıldığında depoyu GitHub’a gönderir. Kullanıcı açıkça public istemediği sürece güvenli varsayılan olarak private tercih edilmelidir.
+Run the following commands inside the repository folder to push the repository to GitHub. Unless the user explicitly requests public visibility, default to **private** for safety.
 
 ```bash
 cd /home/ubuntu/technology-leadership-council
@@ -58,7 +59,7 @@ gh repo create technology-leadership-council \
   --push
 ```
 
-Eğer doğrudan public yayın istenirse `--private` yerine `--public` kullanılmalıdır.
+If direct public release is desired, replace `--private` with `--public`:
 
 ```bash
 gh repo create technology-leadership-council \
@@ -69,55 +70,55 @@ gh repo create technology-leadership-council \
   --push
 ```
 
-## 5. Yayın Sonrası Önerilen GitHub Ayarları
+## 5. Recommended GitHub Settings Post-Release
 
-Yayın sonrasında GitHub arayüzünde aşağıdaki ayarlar yapılabilir.
+After publishing, configure the following settings via the GitHub interface:
 
-| Ayar | Öneri |
+| Setting | Recommendation |
 |---|---|
 | **About description** | `An open prompt architecture for C-level technology and AI decision-making.` |
-| **Website** | İlk aşamada boş bırakılabilir; daha sonra landing page eklenebilir. |
+| **Website** | Leave blank initially; add a landing page later if needed. |
 | **Topics** | `ai`, `leadership`, `prompt-engineering`, `digital-transformation`, `c-level`, `decision-making`, `ai-strategy` |
-| **Issues** | Açık kalsın; kullanıcı geri bildirimleri toplanabilir. |
-| **Discussions** | İkinci fazda açılabilir; topluluk katkısı için faydalı olur. |
-| **Wiki** | Şimdilik gerek yok; dokümanlar repo içinde yeterli. |
+| **Issues** | Keep enabled to collect user feedback. |
+| **Discussions** | Enable in phase two to foster community contributions. |
+| **Wiki** | Not necessary at this stage; documentation within the repo is sufficient. |
 
-## 6. İlk Release Önerisi
+## 6. Initial Release Recommendation
 
-| Alan | İçerik |
+| Field | Content |
 |---|---|
 | **Tag** | `v0.1.0` |
 | **Release title** | `v0.1.0 — Initial Council Architecture` |
-| **Release note** | `Initial public draft of Technology Leadership Council, including seven leadership personas, council prompt modes, decision templates and C-level examples.` |
+| **Release note** | `Initial public draft of Technology Leadership Council, including seven leadership personas, council prompt modes, decision templates, and C-level examples.` |
 
-## 7. LinkedIn ile Senkron Yayın Planı
+## 7. LinkedIn Synchronized Release Plan
 
-Depo public yapılacaksa LinkedIn paylaşımıyla aynı gün yayınlanması önerilir. En iyi akış şöyledir: önce repo public yapılır, ardından link LinkedIn postuna eklenir, sonra ilk yorumda “hangi persona ile başlamak istersiniz?” sorusu sorulur.
+If the repository will be public, it is recommended to publish it on the same day as the LinkedIn announcement. The optimal flow is: make the repo public first, then add the link to the LinkedIn post, followed by a first comment asking “Which persona would you like to start with?”
 
-| Sıra | Aksiyon | Amaç |
+| Step | Action | Purpose |
 |---|---|---|
-| **1** | Repo private olarak yüklenir | Son kontrol için güvenli alan yaratmak |
-| **2** | README ve promptlar son kez gözden geçirilir | Hata ve ifade riski azaltmak |
-| **3** | Repo public yapılır | Açık kaynak erişim sağlamak |
-| **4** | LinkedIn postu paylaşılır | İlk görünürlük ve yorumları toplamak |
-| **5** | Müşteri/tedarikçi mesajları gönderilir | B2B görüşme fırsatları yaratmak |
+| **1** | Upload repo as private | Create a safe space for final review |
+| **2** | Final review of README and prompts | Reduce errors and expression risks |
+| **3** | Make repo public | Enable open-source access |
+| **4** | Share LinkedIn post | Generate initial visibility and comments |
+| **5** | Send customer/supplier messages | Create B2B engagement opportunities |
 
-## 8. Kullanıcıdan Gereken Son Onay
+## 8. Final User Approval Required
 
-Yükleme için aşağıdaki üç kararın netleşmesi gerekir.
+The following three decisions must be confirmed before upload:
 
-| Karar | Seçenekler | Öneri |
+| Decision | Options | Recommendation |
 |---|---|---|
-| **Repo görünürlüğü** | Private / Public | Önce private, sonra public |
-| **Repo adı** | `technology-leadership-council` / başka isim | `technology-leadership-council` |
-| **Lisans** | MIT / CC BY 4.0 / lisanssız | MIT |
+| **Repository visibility** | Private / Public | Private first, then Public |
+| **Repository name** | `technology-leadership-council` / other | `technology-leadership-council` |
+| **License** | MIT / CC BY 4.0 / no license | MIT |
 
-## 9. Kısa Karar Cümlesi
+## 9. Concise Approval Statement
 
-GitHub’a yüklemek için yeterli olacak onay cümlesi şudur:
+The following approval statement suffices for upload authorization:
 
-> `Onaylıyorum. technology-leadership-council adıyla önce private olarak GitHub’a yükle. MIT lisans kalsın.`
+> `I approve. Upload to GitHub as private under the name technology-leadership-council. Keep MIT license.`
 
-Doğrudan açık yayın istenirse:
+For direct public release:
 
-> `Onaylıyorum. technology-leadership-council adıyla public olarak GitHub’a yükle. MIT lisans kalsın.`
+> `I approve. Upload to GitHub as public under the name technology-leadership-council. Keep MIT license.`

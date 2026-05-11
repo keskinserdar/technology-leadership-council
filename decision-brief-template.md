@@ -1,13 +1,15 @@
+---
+---
 # Decision Brief Template
 
-Bu şablonu kurula soru sormadan önce doldurun.
+Complete this template before presenting a question to the council.
 
-| Alan | Cevap |
-|---|---|
-| **Karar** | Ne hakkında karar veriliyor? |
-| **Hedef** | Bu karardan ne bekleniyor? |
-| **Bağlam** | Şirket, sektör, müşteri veya organizasyon bağlamı nedir? |
-| **Kısıtlar** | Bütçe, süre, regülasyon, ekip kapasitesi veya teknik sınırlar neler? |
-| **Endişe** | Liderin içindeki temel soru veya korku nedir? |
-| **Alternatifler** | Masadaki seçenekler neler? |
-| **Beklenen Çıktı** | Kuruldan nasıl bir çıktı isteniyor? |
+| Field               | Response                                  |
+|---------------------|-------------------------------------------|
+| **Decision**        | What decision is being made?               |
+| **Objective**       | What is the expected outcome of this decision? |
+| **Context**         | What is the company, industry, customer, or organizational context? |
+| **Constraints**     | What are the budget, timeline, regulatory, team capacity, or technical limitations? |
+| **Concern**         | What is the core question or concern the leader has? |
+| **Alternatives**    | What options are being considered?        |
+| **Expected Outcome**| What output is expected from the council? |

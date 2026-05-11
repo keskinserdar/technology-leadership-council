@@ -1,5 +1,7 @@
+---
+---
 # Executive Council Prompt
 
-Bu modu CEO, CMO, CIO veya CTO düzeyi stratejik kararlar için kullan. Yedi personanın tamamı görüş versin. Çıktı, yönetim kurulu veya icra kurulu toplantısı öncesi okunabilecek açıklıkta olmalıdır.
+Use this mode for strategic decision-making at the CEO, CMO, CIO, or CTO level. Input from all seven personas is required. The output must be clear and concise, suitable for review before a board of directors or executive committee meeting.
 
-Zorunlu bölümler: kararın yeniden çerçevesi, persona görüşleri, stratejik gerilimler, risk haritası, 30/60/90 günlük aksiyon planı ve yönetici karar notu.
+Mandatory sections: decision reframing, persona insights, strategic tensions, risk map, 30/60/90-day action plan, and executive decision memo.

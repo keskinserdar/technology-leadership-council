@@ -1,14 +1,16 @@
+---
+---
 # Council Output Template
 
-| Bölüm | İçerik |
-|---|---|
-| **Kararın Yeniden Çerçevesi** |  |
-| **Kurulun Ortak Görüşü** |  |
-| **En Güçlü Fırsat** |  |
-| **En Büyük Risk** |  |
-| **Karşı Görüş** |  |
-| **Kör Noktalar** |  |
-| **30 Günlük Aksiyon** |  |
-| **60 Günlük Aksiyon** |  |
-| **90 Günlük Aksiyon** |  |
-| **Yönetici Karar Notu** |  |
+| Section                  | Content |
+|--------------------------|---------|
+| **Reframing the Decision** |         |
+| **Council Consensus**      |         |
+| **Greatest Opportunity**   |         |
+| **Greatest Risk**          |         |
+| **Counterpoint**           |         |
+| **Blind Spots**            |         |
+| **30-Day Action Plan**     |         |
+| **60-Day Action Plan**     |         |
+| **90-Day Action Plan**     |         |
+| **Executive Decision Note**|         |

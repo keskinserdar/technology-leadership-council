@@ -1,68 +1,69 @@
-# Technology Leadership Council — Lansman İletişim Paketi
+---
+# Technology Leadership Council — Launch Communications Package
 
-Bu doküman, **Technology Leadership Council** GitHub deposu yayınlandıktan sonra LinkedIn’de, müşteri görüşmelerinde ve tedarikçi toplantılarında kullanılabilecek iletişim metinlerini içerir. Metinler, C-level liderlerin teknoloji ve yapay zekâ kararlarında daha iyi düşünmesini sağlayan açık kaynaklı bir kurul/prompt mimarisi fikri üzerine kuruludur.
+This document contains communication texts for use on LinkedIn, in client meetings, and supplier discussions following the release of the **Technology Leadership Council** GitHub repository. The texts are based on the concept of an open-source council/prompt architecture designed to help C-level leaders think more effectively about technology and AI decisions.
 
-> **Ana mesaj:** Bu kurul karar vermez; liderin daha iyi karar vermesini sağlar.
+> **Key message:** This council does not make decisions; it enables leaders to make better decisions.
 
-## 1. LinkedIn Paylaşımı — Türkçe Uzun Versiyon
+## 1. LinkedIn Post — Turkish Long Version
 
-AI çağında liderlerin daha fazla cevaba değil, daha iyi sorulara ihtiyacı var.
+In the AI era, leaders need better questions, not more answers.
 
-Bir süredir eğitimlerde, müşteri görüşmelerinde ve kendi çalışmalarımda aynı şeyi gözlemliyorum. Şirketler yapay zekâyı, agentları, otomasyonları, veri platformlarını ve yeni nesil teknoloji tedarikçilerini konuşuyor. Fakat çoğu zaman asıl mesele teknoloji seçimi değil; o teknolojinin **müşteri, kültür, risk, marka, veri ve iş modeli** üzerindeki etkisini aynı anda düşünebilmek.
+I have observed the same trend in trainings, client meetings, and my own work. Companies talk about AI, agents, automation, data platforms, and next-generation technology suppliers. But often, the real issue is not technology selection; it is the ability to simultaneously consider the impact of that technology on **customers, culture, risk, brand, data, and business models**.
 
-Bu yüzden bir açık kaynak prompt mimarisi hazırladık: **Technology Leadership Council**.
+That’s why we created an open-source prompt architecture: **Technology Leadership Council**.
 
-Bu yapı, C-level yöneticilerin kritik teknoloji ve yapay zekâ kararlarını yedi farklı liderlik perspektifinden tartıştırmak için tasarlandı.
+This framework is designed to facilitate C-level executives in discussing critical technology and AI decisions from seven distinct leadership perspectives.
 
-| Persona | Temsil Ettiği Bakış |
+| Persona | Perspective Represented |
 |---|---|
-| **The Platform Architect** | Mimari, ölçek, entegrasyon ve uzun vadeli teknoloji bağımlılıkları |
-| **The Experience Visionary** | Kullanıcı deneyimi, sadelik, ürün ve marka algısı |
-| **The Customer-Backwards Operator** | Müşteri ihtiyacı, operasyon ve iş değeri |
-| **The Applied AI Strategist** | AI kullanım senaryosu, veri, otomasyon ve ölçülebilir etki |
-| **The Risk & Security Sentinel** | Güvenlik, mahremiyet, regülasyon ve itibar riski |
-| **The Culture Transformer** | Değişim yönetimi, liderlik ve organizasyonel adaptasyon |
-| **The First-Principles Challenger** | Varsayım kırma, radikal alternatifler ve yeni iş modeli |
+| **The Platform Architect** | Architecture, scale, integration, and long-term technology dependencies |
+| **The Experience Visionary** | User experience, simplicity, product and brand perception |
+| **The Customer-Backwards Operator** | Customer needs, operations, and business value |
+| **The Applied AI Strategist** | AI use cases, data, automation, and measurable impact |
+| **The Risk & Security Sentinel** | Security, privacy, regulation, and reputation risk |
+| **The Culture Transformer** | Change management, leadership, and organizational adaptation |
+| **The First-Principles Challenger** | Assumption breaking, radical alternatives, and new business models |
 
-Bu kurul bir chatbot değil. Bir karar motoru da değil. Daha çok, karar vermeden önce zihninize yedi farklı lideri oturtan bir **düşünme masası**.
+This council is not a chatbot. It is not a decision engine. Rather, it is a **thinking table** that seats seven different leaders in your mind before you decide.
 
-Bir CEO şunu sorabilir: “Şirketimiz yapay zekâya nereden başlamalı?”
+A CEO might ask: “Where should our company start with AI?”
 
-Bir CMO şunu sorabilir: “AI destekli kişiselleştirme müşteri deneyimini güçlendirir mi, yoksa müşteride takip edilme hissi mi yaratır?”
+A CMO might ask: “Will AI-powered personalization enhance customer experience or create a feeling of surveillance?”
 
-Bir CIO şunu sorabilir: “Bu tedarikçi bizi uzun vadede özgürleştirir mi, yoksa kilitler mi?”
+A CIO might ask: “Will this vendor free us in the long term or lock us in?”
 
-Benim için bu çalışmanın en değerli tarafı şu: Yapay zekâyı sadece cevap üreten bir araç gibi değil, **liderin düşünce kalitesini artıran bir oyun arkadaşı** gibi konumlandırması.
+For me, the most valuable aspect of this work is positioning AI not just as a tool that produces answers, but as a **thinking partner that elevates the quality of leadership thought**.
 
-Bu yaklaşım, *Yapay Zekayla Düşünmek* kitabında anlattığım temel felsefeyle de örtüşüyor. AI’ı sadece kullanmak değil, onunla birlikte düşünmek gerekiyor. Çünkü bugün liderlik, “hangi aracı alalım?” sorusundan çok “hangi zihniyetle karar veriyoruz?” sorusuna bağlı.
+This approach aligns with the core philosophy I describe in my book *Thinking with AI*: AI is not just to be used, but to be thought with. Because today, leadership depends less on “which tool to buy?” and more on “with what mindset are we making decisions?”
 
-Depoyu GitHub’da açık kaynak olarak paylaşacağız. İlk sürümde yedi persona, dört kullanım modu, karar brief’i şablonu ve CEO/CMO/CIO örnekleri olacak.
+We will release the repository as open source on GitHub. The initial version will include seven personas, four usage modes, a decision brief template, and CEO/CMO/CIO examples.
 
-Eğer siz de AI çağında liderlik, karar kalitesi, dijital dönüşüm ve kurumsal yapay zekâ kullanımı üzerine değer üretmek istiyorsanız, bu çalışmayı birlikte geliştirebiliriz.
+If you want to create value around AI-era leadership, decision quality, digital transformation, and enterprise AI adoption, we can develop this work together.
 
-Yorumlarda şunu duymayı çok isterim: Sizce C-level bir lider, böyle bir kurula ilk hangi soruyu sormalı?
+I would love to hear in the comments: What is the first question a C-level leader should ask this council?
 
-#YapayZeka #Liderlik #DigitalTransformation #AILeadership #CLevel #CustomerExperience #TechnologyStrategy #FutureOfWork
+#AI #Leadership #DigitalTransformation #AILeadership #CLevel #CustomerExperience #TechnologyStrategy #FutureOfWork
 
-## 2. LinkedIn Paylaşımı — Türkçe Kısa Versiyon
+## 2. LinkedIn Post — Turkish Short Version
 
-AI çağında liderlerin daha fazla cevaba değil, daha iyi sorulara ihtiyacı var.
+In the AI era, leaders need better questions, not more answers.
 
-Bu fikirden yola çıkarak **Technology Leadership Council** adını verdiğimiz açık kaynaklı bir prompt mimarisi hazırladık.
+Based on this idea, we created an open-source prompt architecture called **Technology Leadership Council**.
 
-Amaç basit: Bir CEO, CMO, CIO veya CTO kritik bir teknoloji ya da yapay zekâ kararı vermeden önce, o kararı yedi farklı liderlik perspektifinden tartıştırabilsin.
+The goal is simple: Before a CEO, CMO, CIO, or CTO makes a critical technology or AI decision, they can discuss it from seven different leadership perspectives.
 
-Kurulda şu bakışlar var: mimari, deneyim, müşteri, uygulamalı AI, güvenlik, kültür ve varsayım kırma.
+The council includes these views: architecture, experience, customer, applied AI, security, culture, and assumption breaking.
 
-Bu bir chatbot değil. Bir karar motoru da değil. Daha çok, liderin karar vermeden önce zihnine yedi farklı stratejik sesi davet etmesi.
+This is not a chatbot. It is not a decision engine. It is more like inviting seven strategic voices into the leader’s mind before deciding.
 
-> **Bu kurul karar vermez; liderin daha iyi karar vermesini sağlar.**
+> **This council does not make decisions; it helps leaders make better decisions.**
 
-İlk sürümü GitHub’da paylaşacağız. Ardından farklı sektörler ve roller için versiyonlarını geliştireceğiz.
+We will share the first version on GitHub and then develop versions for different industries and roles.
 
-Sizce bir lider böyle bir kurula ilk hangi soruyu sormalı?
+What do you think is the first question a leader should ask this council?
 
-#YapayZeka #Liderlik #AILeadership #DigitalTransformation #CLevel #TechnologyStrategy
+#AI #Leadership #AILeadership #DigitalTransformation #CLevel #TechnologyStrategy
 
 ## 3. LinkedIn Post — English Version
 
@@ -72,7 +73,7 @@ This is why we created **Technology Leadership Council**, an open prompt archite
 
 The council includes seven personas: platform architecture, experience design, customer-backwards thinking, applied AI strategy, risk and security, cultural transformation, and first-principles challenge.
 
-This is not another chatbot. It is not a decision engine either. It is a structured thinking table that helps leaders see the customer, technology, culture, risk, brand and business model implications of a decision before they commit.
+This is not another chatbot. It is not a decision engine either. It is a structured thinking table that helps leaders see the customer, technology, culture, risk, brand, and business model implications of a decision before they commit.
 
 A CEO may ask: “Where should our company start with AI?”
 
@@ -82,97 +83,96 @@ A CIO may ask: “Will this vendor make us more scalable, or lock us into long-t
 
 > **The council does not make the decision. It helps the leader make a better one.**
 
-We are preparing to share the first version on GitHub with seven personas, multiple council modes, decision brief templates and C-level examples.
+We are preparing to share the first version on GitHub with seven personas, multiple council modes, decision brief templates, and C-level examples.
 
-If you are working on AI leadership, decision quality, digital transformation or customer experience, I would love to hear your perspective.
+If you are working on AI leadership, decision quality, digital transformation, or customer experience, I would love to hear your perspective.
 
 What is the first question a C-level leader should ask this council?
 
 #AI #Leadership #AILeadership #DigitalTransformation #CLevel #TechnologyStrategy #CustomerExperience
 
-## 4. Müşteri Sunum Metni — Kısa Tanıtım
+## 4. Client Presentation Text — Brief Introduction
 
-**Technology Leadership Council**, C-level yöneticilerin teknoloji ve yapay zekâ kararlarını yedi farklı liderlik perspektifinden tartıştırmasını sağlayan bir prompt mimarisidir. Bu yapı, şirketlerin AI, veri, platform, otomasyon, müşteri deneyimi ve tedarikçi kararlarını daha geniş bir stratejik çerçevede değerlendirmesine yardımcı olur.
+**Technology Leadership Council** is a prompt architecture that enables C-level executives to discuss technology and AI decisions from seven different leadership perspectives. This framework helps companies evaluate AI, data, platforms, automation, customer experience, and supplier decisions within a broader strategic context.
 
-Kurulun temel amacı, yöneticinin yerine karar vermek değildir. Amaç; kararın teknik, müşteri odaklı, kültürel, operasyonel, etik, güvenlik ve iş modeli etkilerini görünür kılmaktır. Böylece lider, karar öncesinde sadece fırsatı değil, kör noktaları ve uygulanabilirlik risklerini de görebilir.
+The council’s primary purpose is not to make decisions on behalf of the executive. Instead, it aims to make visible the technical, customer-centric, cultural, operational, ethical, security, and business model impacts of a decision. This allows leaders to see not only opportunities but also blind spots and implementation risks before deciding.
 
-| Müşteri İçin Değer | Açıklama |
+| Value for Clients | Description |
 |---|---|
-| **Karar Kalitesi** | C-level kararlar tek bir bakışa sıkışmadan değerlendirilir. |
-| **AI Stratejisi** | AI projeleri vitrin olmaktan çıkar, iş değeri ve veri hazırlığı üzerinden tartışılır. |
-| **Tedarikçi Değerlendirme** | Platform, entegrasyon, güvenlik ve bağımlılık riskleri görünür hale gelir. |
-| **Müşteri Deneyimi** | Teknoloji kararlarının müşteri ve marka etkisi analiz edilir. |
-| **Dönüşüm Yönetimi** | Organizasyonun değişime hazır olup olmadığı sorgulanır. |
+| **Decision Quality** | C-level decisions are evaluated without being confined to a single viewpoint. |
+| **AI Strategy** | AI projects move beyond showcase status to be discussed in terms of business value and data readiness. |
+| **Supplier Evaluation** | Platform, integration, security, and dependency risks become visible. |
+| **Customer Experience** | The impact of technology decisions on customers and brand is analyzed. |
+| **Transformation Management** | The organization’s readiness for change is assessed. |
 
-Bu yapı özellikle yönetim kurulu, icra kurulu, dijital dönüşüm ekipleri, pazarlama liderleri, teknoloji liderleri ve AI dönüşüm komiteleri için kullanılabilir.
+This framework is especially useful for boards, executive committees, digital transformation teams, marketing leaders, technology leaders, and AI transformation committees.
 
-## 5. Müşteri Sunumu — Konuşma Açılış Metni
+## 5. Client Presentation — Opening Remarks
 
-Bugün birçok şirket yapay zekâya, agentlara, otomasyona ve yeni teknoloji platformlarına yatırım yapmak istiyor. Fakat kritik soru çoğu zaman “hangi aracı alalım?” değil, “bu kararı hangi zihniyetle veriyoruz?” sorusu oluyor.
+Today, many companies want to invest in AI, agents, automation, and new technology platforms. But the critical question often is not “which tool should we buy?” but “with what mindset are we making this decision?”
 
-**Technology Leadership Council** bu nedenle tasarlandı. Bir teknoloji veya yapay zekâ kararını, yedi farklı liderlik perspektifinden tartıştıran bir düşünme modeli sunuyor. Bu modelde mimariyi düşünen bir ses var, müşteri deneyimini düşünen bir ses var, AI’ın gerçekten değer üretip üretmediğini sorgulayan bir ses var, güvenlik ve itibar risklerini masaya koyan bir ses var, kültürel adaptasyonu değerlendiren bir ses var ve mevcut varsayımları kıran bir ses var.
+**Technology Leadership Council** was designed for this reason. It offers a thinking model that facilitates discussion of a technology or AI decision from seven different leadership perspectives. This model includes a voice focused on architecture, one on customer experience, one questioning whether AI truly creates value, one addressing security and reputation risks, one evaluating cultural adaptation, and one challenging existing assumptions.
 
-Bu kurulun iddiası karar vermek değil. Tam tersine, liderin karar öncesinde daha derin, daha dengeli ve daha sorumlu düşünmesini sağlamak.
+The council’s claim is not to decide. On the contrary, it helps leaders think more deeply, more balanced, and more responsibly before deciding.
 
-Bu nedenle özellikle AI dönüşümü, tedarikçi seçimi, müşteri deneyimi projeleri, veri platformu kararları, organizasyonel dönüşüm programları ve yeni dijital ürün yatırımları için çok pratik bir karar destek aracı olarak kullanılabilir.
+Therefore, it can be a very practical decision support tool especially for AI transformation, supplier selection, customer experience projects, data platform decisions, organizational transformation programs, and new digital product investments.
 
-## 6. Tedarikçi Sunum Metni
+## 6. Supplier Presentation Text
 
-**Technology Leadership Council**, teknoloji tedarikçileri ve danışmanlık iş ortakları için de değerli bir çerçeve sunar. Çünkü birçok kurum artık sadece ürün demosu veya fiyat karşılaştırmasıyla karar vermek istemiyor. Tedarikçinin sunduğu çözümün mimari uyumunu, veri güvenliğini, müşteri deneyimine etkisini, operasyonel sürdürülebilirliğini ve organizasyonel adaptasyon ihtiyacını birlikte görmek istiyor.
+**Technology Leadership Council** also offers a valuable framework for technology suppliers and consulting partners. Many organizations no longer want to decide based solely on product demos or price comparisons. They want to see the architectural fit, data security, impact on customer experience, operational sustainability, and organizational adaptation needs of the supplier’s solution together.
 
-Bu kurul, tedarikçi seçim süreçlerinde daha kaliteli sorular sorulmasına yardımcı olur. Örneğin bir kurum, bir CRM, CDP, AI asistanı, chatbot, veri platformu veya otomasyon çözümü seçmeden önce bu kurulu çalıştırarak şu alanları değerlendirebilir: tedarikçi bağımlılığı, entegrasyon kabiliyeti, veri sahipliği, güvenlik sorumluluğu, müşteri etkisi, pilot planı ve ölçeklenme riski.
+This council helps ask better questions during supplier selection processes. For example, before choosing a CRM, CDP, AI assistant, chatbot, data platform, or automation solution, an organization can run this council to evaluate supplier dependency, integration capability, data ownership, security responsibility, customer impact, pilot plans, and scaling risks.
 
-Tedarikçiler için bu yaklaşım iki açıdan değerlidir. Birincisi, müşterinin daha bilinçli ve stratejik karar vermesini sağlar. İkincisi, iyi tedarikçilerin yalnızca teknik özelliklerle değil, stratejik değerle ayrışmasına imkân verir.
+This approach is valuable for suppliers in two ways. First, it enables customers to make more informed and strategic decisions. Second, it allows good suppliers to differentiate themselves not only by technical features but also by strategic value.
 
-## 7. Müşteri E-postası / Mesaj Taslağı
+## 7. Client Email / Message Draft
 
-Merhaba,
+Hello,
 
-AI ve teknoloji kararlarının artık sadece teknik kararlar olmadığını; müşteri deneyimi, marka güveni, kültür, veri, risk ve iş modeli üzerinde doğrudan etkisi olduğunu görüyoruz.
+We see that AI and technology decisions are no longer just technical choices; they have direct impacts on customer experience, brand trust, culture, data, risk, and business models.
 
-Bu nedenle **Technology Leadership Council** adını verdiğimiz açık kaynaklı bir karar destek prompt mimarisi hazırladık. Bu yapı, C-level yöneticilerin kritik teknoloji ve yapay zekâ kararlarını yedi farklı liderlik perspektifinden tartıştırmasına yardımcı oluyor.
+For this reason, we developed an open-source decision support prompt architecture called **Technology Leadership Council**. This framework helps C-level executives discuss critical technology and AI decisions from seven different leadership perspectives.
 
-Kısaca, bu kurul karar vermiyor; liderin daha iyi karar vermesini sağlıyor.
+In short, this council does not make decisions; it helps leaders make better decisions.
 
-İsterseniz bunu birlikte kısa bir örnek karar senaryosu üzerinde çalıştırabilir ve şirketinizdeki AI, tedarikçi seçimi, müşteri deneyimi veya dijital dönüşüm kararlarına nasıl uygulanabileceğini gösterebiliriz.
+If you like, we can run a short example decision scenario together and demonstrate how it can be applied to AI, supplier selection, customer experience, or digital transformation decisions in your company.
 
-Sevgiler,
-
+Best regards,  
 Serdar Keskin
 
-## 8. 7 Slaytlık LinkedIn / Instagram Carousel Metin Taslağı
+## 8. 7-Slide LinkedIn / Instagram Carousel Text Draft
 
-| Slayt | Metin |
+| Slide | Text |
 |---|---|
-| **1** | AI çağında liderlerin daha fazla cevaba değil, daha iyi sorulara ihtiyacı var. |
-| **2** | Teknoloji kararları artık sadece IT kararı değil. Müşteriyi, markayı, kültürü, riski ve iş modelini aynı anda etkiliyor. |
-| **3** | Bu yüzden Technology Leadership Council’i hazırladık: C-level kararlar için yedi farklı liderlik perspektifi. |
-| **4** | Mimari, deneyim, müşteri, uygulamalı AI, güvenlik, kültür ve varsayım kırma aynı masada. |
-| **5** | Bir CEO AI stratejisini, bir CMO kişiselleştirmeyi, bir CIO tedarikçi seçimini bu kurula sorabilir. |
-| **6** | Bu kurul karar vermez. Liderin daha iyi karar vermesini sağlar. |
-| **7** | İlk sürümü GitHub’da paylaşıyoruz. Soru şu: Siz bu kurula ilk hangi kararı sorardınız? |
+| **1** | Leaders in the AI era need better questions, not more answers. |
+| **2** | Technology decisions are no longer just IT decisions. They simultaneously affect customers, brand, culture, risk, and business models. |
+| **3** | That’s why we created Technology Leadership Council: seven leadership perspectives for C-level decisions. |
+| **4** | Architecture, experience, customer, applied AI, security, culture, and assumption breaking all at the same table. |
+| **5** | A CEO can ask about AI strategy, a CMO about personalization, a CIO about supplier selection — all to this council. |
+| **6** | This council does not decide. It helps leaders make better decisions. |
+| **7** | We are sharing the first version on GitHub. The question is: What would you ask this council first? |
 
-## 9. Konumlandırma Cümleleri
+## 9. Positioning Statements
 
-| Kullanım Yeri | Cümle |
+| Usage Context | Statement |
 |---|---|
-| **GitHub açıklaması** | An open prompt architecture for C-level technology and AI decision-making. |
-| **LinkedIn hook** | AI çağında liderlerin daha fazla cevaba değil, daha iyi sorulara ihtiyacı var. |
-| **Müşteri sunumu** | Bu kurul karar vermez; liderin daha iyi karar vermesini sağlar. |
-| **Tedarikçi görüşmesi** | İyi tedarikçiler, iyi sorular sorulduğunda daha görünür olur. |
-| **Eğitim kullanımı** | Bu çalışma, liderlerin yapay zekâyı sadece kullanmasını değil, onunla birlikte düşünmesini sağlar. |
+| **GitHub description** | An open prompt architecture for C-level technology and AI decision-making. |
+| **LinkedIn hook** | Leaders in the AI era need better questions, not more answers. |
+| **Client presentation** | This council does not make decisions; it helps leaders make better decisions. |
+| **Supplier meeting** | Good suppliers become more visible when better questions are asked. |
+| **Training use** | This work enables leaders not just to use AI, but to think with AI. |
 
-## 10. Önerilen Yayın Akışı
+## 10. Recommended Publishing Schedule
 
-| Gün | Aksiyon | Amaç |
+| Day | Action | Purpose |
 |---|---|---|
-| **Gün 1** | GitHub deposunu yayınla | Açık kaynak varlığı oluşturmak |
-| **Gün 1** | LinkedIn kısa duyuru paylaş | İlk merak ve yorumları toplamak |
-| **Gün 2** | Müşteri/tedarikçi mesajını seçili kişilere gönder | B2B görüşme zemini oluşturmak |
-| **Gün 3** | Carousel içeriği paylaş | Fikri görselleştirip erişimi artırmak |
-| **Gün 5** | İlk kullanım örneğini paylaş | Somut değer göstermek |
-| **Gün 7** | Sektörel versiyon çağrısı yap | Katılım ve yeni iş fırsatı yaratmak |
+| **Day 1** | Publish GitHub repository | Establish open-source presence |
+| **Day 1** | Share LinkedIn short announcement | Generate initial interest and comments |
+| **Day 2** | Send client/supplier message to selected contacts | Create B2B engagement opportunities |
+| **Day 3** | Share carousel content | Visualize the idea and increase reach |
+| **Day 5** | Share first usage example | Demonstrate tangible value |
+| **Day 7** | Call for sector-specific versions | Encourage participation and new business opportunities |
 
-## 11. Son Not
+## 11. Final Note
 
-Bu iletişim paketinde doğrudan satış baskısı yerine düşünce liderliği, açık kaynak katkı ve C-level karar kalitesi öne çıkarılmıştır. GitHub deposu bir vitrin değil, eğitimlerde, danışmanlık görüşmelerinde ve müşteri çalışmalarında kullanılabilecek canlı bir entelektüel sermaye alanı olarak konumlanmalıdır.
+This communications package emphasizes thought leadership, open source contribution, and C-level decision quality rather than direct sales pressure. The GitHub repository should be positioned not as a showcase but as a living intellectual capital resource for use in trainings, consulting meetings, and client engagements.

@@ -1,13 +1,15 @@
+---
+---
 # Example: CEO AI Strategy
 
-## Kullanıcı Sorusu
+## User Question
 
-Şirketimiz önümüzdeki 12 ayda yapay zekâyı sadece verimlilik için değil, rekabet avantajı yaratmak için nasıl kullanmalı? Her persona kendi açısından en büyük fırsatı, en büyük riski ve ilk 90 günlük aksiyon önerisini sunsun.
+How should our company leverage artificial intelligence over the next 12 months to drive not only efficiency but also competitive advantage? Each persona should provide their perspective on the greatest opportunity, the biggest risk, and a recommended action plan for the first 90 days.
 
-## Önerilen Mod
+## Suggested Mode
 
 **Executive Council**
 
-## Beklenen Çıktı
+## Expected Output
 
-Kurul, AI kullanım senaryolarını verimlilik, müşteri değeri, yeni iş modeli, veri hazırlığı, güvenlik ve organizasyonel adaptasyon açısından değerlendirmelidir.
+The council should assess AI use cases based on efficiency, customer value, new business models, data readiness, security, and organizational adaptability.

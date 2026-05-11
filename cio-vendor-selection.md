@@ -1,13 +1,15 @@
+---
+---
 # Example: CIO Vendor Selection
 
-## Kullanıcı Sorusu
+## User Question
 
-Yeni müşteri veri platformu için üç tedarikçi değerlendiriyoruz. Hangi tedarikçi uzun vadede daha güvenli, ölçeklenebilir ve müşteri deneyimine katkı sağlayan bir seçim olur?
+We are evaluating three vendors for a new customer data platform. Which vendor will be the most secure, scalable, and advantageous for the customer experience in the long term?
 
-## Önerilen Mod
+## Suggested Mode
 
 **Vendor Review**
 
-## Beklenen Çıktı
+## Expected Output
 
-Kurul; entegrasyon, veri sahipliği, güvenlik, tedarikçi bağımlılığı, müşteri etkisi, ekip adaptasyonu ve pazarlıkta sorulacak kritik soruları çıkarmalıdır.
+The council should identify key questions to ask about integration, data ownership, security, vendor lock-in, customer impact, team adoption, and negotiation.
