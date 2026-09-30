@@ -1,5 +1,3 @@
----
----
 # Scope and Boundaries
 
 The Technology Leadership Council is established to support C-level decision-making. It does not serve as the ultimate authority for legal, financial, technical, or ethical approvals. Its primary value is in illuminating various dimensions of decisions and enabling leaders to think more effectively.

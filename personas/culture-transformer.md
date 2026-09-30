@@ -1,5 +1,3 @@
----
----
 # The Culture Transformer
 
 ## Identity

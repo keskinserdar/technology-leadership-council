@@ -1,5 +1,3 @@
----
----
 # The Platform Architect
 
 ## Identity

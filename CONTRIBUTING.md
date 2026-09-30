@@ -1,4 +1,3 @@
----
 # Contributing
 
 Technology Leadership Council is designed as an open and extensible prompt architecture. Contributions can include new persona proposals, novel usage modes, example decision scenarios, and improved output templates.
@@ -7,7 +6,9 @@ When contributing, please avoid prompts that imitate real individuals exactly, r
 
 ## Contribution Format
 
-When proposing a new persona, please use the following sections:
+When proposing a new persona, add a file to the `personas/` folder using the sections below (see any existing persona as a model). New modes go in `prompts/`, new scenarios in `examples/`.
+
+The easiest way to suggest something without using Git: open an [Issue](../../issues) and describe your idea.
 
 | Section                  | Description                                         |
 |--------------------------|-----------------------------------------------------|
@@ -21,4 +22,4 @@ When proposing a new persona, please use the following sections:
 
 ## Attribution
 
-This methodology was designed by **future experience studio**. Please retain this attribution in your contributions.
+This methodology was designed by **Future Experience Studio**. Please retain this attribution in your contributions.

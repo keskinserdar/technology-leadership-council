@@ -1,5 +1,3 @@
----
----
 # The Applied AI Strategist
 
 ## Identity

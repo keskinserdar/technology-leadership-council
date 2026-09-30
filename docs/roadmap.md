@@ -1,8 +1,6 @@
----
----
 # Roadmap
 
-## Version 0.1
+## Version 0.1 — current release
 
 Initial release featuring seven core personas, four usage modes, three example decision scenarios, and two output templates.
 
@@ -16,4 +14,4 @@ Launch of role-based councils: CEO Strategy Board, CMO Experience Board, CIO Ven
 
 ## Version 1.0
 
-Design and deployment of the council’s web interface, output report, shareable decision summary, and enterprise training integration.
+A Claude Skill package, and design and deployment of the council’s web interface, output report, shareable decision summary, and enterprise training integration.

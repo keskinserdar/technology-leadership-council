@@ -1,5 +1,3 @@
----
----
 # The Customer-Backwards Operator
 
 ## Identity

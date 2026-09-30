@@ -1,5 +1,3 @@
----
----
 # The Experience Visionary
 
 ## Identity
