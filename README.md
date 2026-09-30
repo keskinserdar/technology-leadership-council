@@ -26,6 +26,16 @@ Mode: Executive Council
 
 The council reframes your decision, lets seven perspectives speak — and disagree — and closes with blind spots, a 30/60/90-day plan and a one-paragraph executive decision note.
 
+## Use Claude? Install it once as a Skill
+
+Skip the copy-paste. Add the council to Claude once, then just ask: *"Take this decision to the council."*
+
+1. **[Download the skill (ZIP)](skill/technology-leadership-council.zip?raw=true)** — don't unzip it.
+2. In Claude, go to **Customize → Skills**, click **+**, then **Create skill → Upload a skill**, and choose the ZIP.
+3. Start a new chat and describe your decision. The council opens in **Executive Council** mode by default; ask for *Quick Council*, *Duo Debate* or *Vendor Review* any time.
+
+Works on Free, Pro, Max, Team and Enterprise plans. On Team and Enterprise, you can share the skill with colleagues from the same Skills page.
+
 ---
 
 ## Why a council?
@@ -87,6 +97,8 @@ Endişe: Müşteriler bunu soğuk ve mekanik bulur mu?
 Mod: Executive Council
 ```
 
+**Claude kullanıyorsanız:** [Skill dosyasını (ZIP) indirin](skill/technology-leadership-council.zip?raw=true), Claude'da **Customize → Skills → + → Create skill → Upload a skill** adımlarıyla yükleyin. Sonrasında yeni bir sohbette *"Bu kararı konseye götür"* demeniz yeterli; prompt kopyalamanıza gerek kalmaz.
+
 ## Repository structure
 
 ```
@@ -95,6 +107,7 @@ technology-leadership-council/
 ├── personas/     ← the seven council members in full detail
 ├── examples/     ← CEO, CMO and CIO scenarios
 ├── templates/    ← decision brief and output template
+├── skill/        ← Claude Skill package (ZIP) and its source
 └── docs/         ← scope, boundaries and roadmap
 ```
 

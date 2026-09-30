@@ -2,7 +2,7 @@
 
 ## Version 0.1 — current release
 
-Initial release featuring seven core personas, four usage modes, three example decision scenarios, and two output templates.
+Initial release featuring seven core personas, four usage modes, three example decision scenarios, two output templates, and a Claude Skill package.
 
 ## Version 0.2
 
@@ -14,4 +14,4 @@ Launch of role-based councils: CEO Strategy Board, CMO Experience Board, CIO Ven
 
 ## Version 1.0
 
-A Claude Skill package, and design and deployment of the council’s web interface, output report, shareable decision summary, and enterprise training integration.
+Design and deployment of the council’s web interface, output report, shareable decision summary, and enterprise training integration.
